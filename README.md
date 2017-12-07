@@ -1,21 +1,13 @@
 # Aoc2017
 
-**TODO: Add description**
+Solutions to [Advent of Code 2017](http://adventofcode.com/2017).
 
-## Installation
+Tests are mostly in docstests, run `mix test`.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `aoc2017` to your list of dependencies in `mix.exs`:
+You'll need to use iex to solve puzzles:
 
-```elixir
-def deps do
-  [
-    {:aoc2017, "~> 0.1.0"}
-  ]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/aoc2017](https://hexdocs.pm/aoc2017).
-
+$ iex -S mix
+iex> Day1.solve_captcha("1234")
+0
+```
